@@ -1,0 +1,28 @@
+.request-button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #6259F5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.request-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px -6px rgba(98,89,245,0.55);
+}
+
+.request-button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(120px circle at var(--mx,50%) var(--my,50%), rgba(255,255,255,0.25), transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.request-button:hover::before {
+  opacity: 1;
+}

@@ -6,9 +6,11 @@
     align-items: center;
 }
 
-.card { 
+.card-home { 
     width: clamp(280px, 22vw, 420px);
     padding: clamp(18px, 1.8vw, 26px);
+    background-color:black;
+    border-radius:  20px;
 
 }
 
