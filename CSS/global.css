@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(
+        #171625,
+    )
+    
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #191729;
+        color: #f5f5f7;
+    }
+}
