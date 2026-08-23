@@ -1,0 +1,16 @@
+
+
+
+
+.hero {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+.card { 
+    width: clamp(280px, 22vw, 420px);
+    padding: clamp(18px, 1.8vw, 26px);
+
+}
+
