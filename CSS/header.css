@@ -23,12 +23,38 @@ nav{
   text-decoration: none;       /* cela enlève les lignes sous les liens */
 }
 
-.logo{
-    display:flex;
-    gap:10px;
+.logo-text{
     font-size:35px ;
-    font-family: "Space-Grtoesk", sans-serif;
+    font-family: "Space-Grotesk", sans-serif;
+    color : white;
+    background-color: none;
+    align-items: center;
+    font-weight: 700;
 }
-.enter-varqio{
+
+.logoImage{
+    width:30px;
+}
+
+
+.homeButton{
+    display:flex;
+    background-color: #0E0E15;
+    border:none;
+    gap: 10px;
+}
+
+
+.SignIn-text{
     text-decoration: none;
+    font-family: "Space-Grotesk", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    color:white;
+}
+
+.left-navbar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
