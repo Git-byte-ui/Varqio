@@ -3,12 +3,11 @@ nav{
     justify-content: space-between;  /* cela pousse le logo tout a gauche et le sign in & request access a droite */
     align-items: center;        /* cela centre tour verticalement */
     padding: 18px 32px;
-    background: #0a0a0d;
+    background: #F8F7FA;
     border-bottom: 1px solid rgba(255,255,255,0.08);
     position: sticky;
     top: 0;
     z-index: 50;
-    background: rgba(10,10,13,0.7);
     backdrop-filter: blur(10px);
     height: 100px;
 }
@@ -20,18 +19,21 @@ nav{
 }
 
 .nav-links a {
-  color: #93939f;
-  text-decoration: none;       /* cela enlève les lignes sous les liens */
+    color: #93939f;
+    text-decoration: none;   
+      /* cela enlève les lignes sous les liens */
+     font-weight:  800; 
 }
 
+
 .nav-links a:hover {
-    color:white;
+    color: black;
 }
 
 .logo-text{
     font-size:35px ;
     font-family: "Space-Grotesk", sans-serif;
-    color : white;
+    color : black;
     background-color: none;
     align-items: center;
     font-weight: 700;
@@ -44,25 +46,28 @@ nav{
 
 .homeButton{
     display:flex;
-    background-color: #0E0E15;
+    background-color: #F8F7FA;
     border:none;
     gap: 10px;
 }
 
-.left-navbar{
+.right-navbar{
     display: flex;
     align-items: center;
     font-family: "Space-Grotesk", sans-serif;
     gap: 10px;
+    
     font-size: 21px;
     font-weight: 700;
 }
 
-.left-navbar a {
+.right-navbar a {
     text-decoration: none;
-        color: #93939f
+    color: #93939f;
 }
 
-.left-navbar a:hover{
-    color: white;
+.right-navbar a:hover{
+    color: black;
 }
+
+/* si navbar < 1200px mettre hamburger menu */

@@ -46,3 +46,7 @@ p{
     font-size: clamp(20px, 2vw,34px);
     color:#f5f5f7
 }
+
+h1 span{
+    display: block;
+}

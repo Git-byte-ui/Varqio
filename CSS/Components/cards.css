@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.card-home { 
+.hero-card { 
     width: clamp(280px, 22vw, 420px);
     padding: clamp(18px, 1.8vw, 26px);
     background-color:black;
