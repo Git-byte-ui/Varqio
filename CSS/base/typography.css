@@ -37,16 +37,3 @@
     font-family:"Space-Grotesk", sans-serif;
     font-size: 19px;
 }
-
-h1, h2, h3, h4 h5{
-    font-family: "Space Grotesk", sans-serif;
-}
-
-p{
-    font-size: clamp(20px, 2vw,34px);
-    color:#f5f5f7
-}
-
-h1 span{
-    display: block;
-}

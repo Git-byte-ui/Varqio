@@ -1,28 +1,53 @@
 .request-button {
   padding: 10px 20px;
   border-radius: 8px;
-  background: #6259F5;
+  background: #0f4310;
   color: white;
   border: none;
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.5s ease;
+  font-weight: 600;
+  font-size: 1rem;
 }
 .request-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px -6px rgba(98,89,245,0.55);
+  box-shadow: 0 8px 24px -6px #0f4310;
+  background-color: #0f4310d2;
 }
 
-.request-button::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(120px circle at var(--mx,50%) var(--my,50%), rgba(255,255,255,0.25), transparent 70%);
-  opacity: 0;
-  transition: opacity 0.3s ease;
+.request-button::after{
+  content: " \2192"; 
+  margin-left: 8px; 
 }
 
-.request-button:hover::before {
-  opacity: 1;
+.investisseur-btn {
+    padding: 16px;
+    height: 50px;
+    align-items: center;
+    border-radius: 6px;
+    font-weight: 800;
+    background-color: #0F4310;
+    color: white;
+    border: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    cursor: pointer;
+    
+} 
+.investisseur-btn:hover {
+    transform: translate(0px, -2px); 
+    box-shadow: 0 8px 24px -6px #0F4310;
+} 
+
+/* refaire plus tard (boutons) */
+.postul-btn {
+    padding: 16px;
+    border-radius: 6px;
+    background-color: #a8adaf81;
+    border: 1.5px solid rgb(85, 80, 80);
+    cursor: pointer;
+    font-weight: 750;
 }
+
+

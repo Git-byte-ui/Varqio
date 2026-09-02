@@ -1,0 +1,10 @@
+.home-steps {
+    height: 400px;
+    background-color: #e4eeff;
+    display: flex;
+    justify-content: center;
+}
+
+.homesteps-title {
+    color:white
+}
