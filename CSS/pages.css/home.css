@@ -8,3 +8,17 @@
 .homesteps-title {
     color:white
 }
+
+.boite-2x2-home {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border: 2px solid #0f4310;
+    background-color: gray;
+    gap: 2px ;
+    border-radius: 20px;
+    overflow: hidden
+}
+.homecase{
+    display: flex;
+}

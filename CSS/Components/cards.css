@@ -1,16 +1,8 @@
-
-
-.hero {
-    display: flex;
-    gap: 90px;
-    align-items: center;
-}
-
-.hero-card { 
-    width: clamp(280px, 22vw, 420px);
+.hero-homecard { 
+    grid-template-columns: 1fr 1fr ;
     padding: clamp(18px, 1.8vw, 26px);
-    background-color:black;
+    background-color: #ffffff;
+    border: 1px solid black;
     border-radius:  20px;
-
 }
 
