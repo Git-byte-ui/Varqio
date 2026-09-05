@@ -16,7 +16,8 @@
 
     grid-template-columns: 1fr 1fr;
 
-    border: 1px solid #263344;
+    border: 1px 
+    solid #263344;
     border-radius: 14px;
     overflow: hidden;
 }
