@@ -23,12 +23,7 @@
 }
 
 
-.hero h1 {
-    font-weight: 800;
-    font-size: clamp(2rem, 5vw + 1rem, 7rem);
-    font-family: 'Bricolage Grotesque', sans-serif;
-    text-align: left;
-}
+
 .hero p {
     max-width: 600px;
     width: 90%;
@@ -49,4 +44,5 @@
 .top-hero {
     display: flex;
     gap: 90px;
+    padding:20px;
 }
