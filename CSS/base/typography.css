@@ -44,10 +44,17 @@ h1 {
     font-weight: 800;
     font-size: clamp(2rem, 5vw + 1rem, 7rem);
     text-align: left;
+    color: black;
 }
 
 h2 {
     font-size: clamp(1.5rem, 3vw + 0.5rem, 4rem);
     font-weight: 700;
     font-family: 'Inter', sans-serif;
+    color: black;
+}
+
+.probcard h3{
+   color:  #8892a0;
+   font-weight: 500;
 }

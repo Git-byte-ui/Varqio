@@ -6,3 +6,18 @@
     border-radius:  20px;
 }
 
+.probcard {
+    border-left: 2px solid gray;
+    width: clamp(20vh, 45vw, 500px);
+    
+    text-align: left;
+    
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.cardicon {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}

@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    justify-content: center;
+}
+
 .homeprob {
     height: 400px;
     background-color: #e4eeff;
@@ -48,11 +53,53 @@
 
 }
 
+.homeprob {
+    width: 100%;
+    padding: 80px 20px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
 .probspot{
-    padding: 1rem;
-    max-width: 1300px;
+    max-width: 1300px ;  
+    width: 100%;
+    margin: 0 auto;
 }
 
 .probspot h2{
     text-align: center;
+    max-width: 750px;
+    margin: 0 auto 20px;
+    font-size: clamp(2rem, 3vw, 3rem);
+    line-height: 1.05;
+}
+
+.probspot > p {
+    text-align: center;      
+    margin: 0 auto;  
+    max-width: 650px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.hcardspot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    width: 100%;
+    gap: 70px;
+    margin: 75px auto 0;
+}
+
+.HomeProcessus {
+    display: flex;
+    height: calc( 100vh - 100px);
+    width: 100vw;
+    
+    align-items: center;
+}
+
+.homeprocessdiv {
+    background-color: blue;
+    width: 100%;
 }
