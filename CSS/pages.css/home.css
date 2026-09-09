@@ -93,6 +93,7 @@ body {
 
 .HomeProcessus {
     display: flex;
+    justify-content: center;
     height: calc( 100vh - 100px);
     width: 100vw;
     
@@ -101,5 +102,9 @@ body {
 
 .homeprocessdiv {
     background-color: blue;
-    width: 100%;
+}
+
+.probspot span {
+    color: var(--coul-princ);
+    font-weight: 800;
 }
