@@ -8,12 +8,17 @@
 
 .probcard {
     border-left: 2px solid gray;
-    width: clamp(20vh, 45vw, 500px);
-    
+    width: 100%;
+    max-width: 600px;
+    min-height:300px;
+    max-height: 500px;
+    height: auto ;
+    border: 2px solid black;
+    background-color: #fff;
     text-align: left;
-    
-    padding: 15px;
+    border-radius: 10px;
     box-sizing: border-box;
+    padding: 30px;
 }
 
 .cardicon {
