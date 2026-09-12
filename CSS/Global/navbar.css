@@ -1,18 +1,23 @@
-nav{
+.navbar{
     display: flex;              /* cela met le flexbox: ils sont ds une rangée(horizontale)*/
     justify-content: space-between;  /* cela pousse le logo tout a gauche et le sign in & request access a droite */
     align-items: center;        /* cela centre tour verticalement */
-    padding: 18px 32px;
-    background: #F8F7FA;
-    border-bottom: 1px solid rgba(255,255,255,0.08);
+    padding: 0 24px;
+    background: #f8f7fa;
+
     position: sticky;
-    top: 0;
-    z-index: 50;
-    backdrop-filter: blur(10px);
+    top: 5vh;
+
     height: 100px;
-    margin: 30px;
-    border: 2px solid black;
-    border-radius: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.navbar:hover {
+    box-shadow: 0 0 10px px #0f4310;
 }
 
 .nav-links {
@@ -26,6 +31,7 @@ nav{
     text-decoration: none;   
       /* cela enlève les lignes sous les liens */
      font-weight:  800; 
+     transition: color 0.3s ease;
 }
 
 
@@ -35,7 +41,7 @@ nav{
 
 .logo-text{
     font-size:35px ;
-    font-family: "Space-Grotesk", sans-serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
     color : black;
     background-color: none;
     align-items: center;

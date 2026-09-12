@@ -5,10 +5,13 @@
 }
 
 body {
-    background-color: #f2f0f5;
+    background-color: #f2f0f500;
     color:black;
     font-family:"Manrope", sans-serif;
     text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
