@@ -17,6 +17,7 @@ for (let i = 0; i < 20; i++) {
     } else {
         label.textContent = "non pertinent";
     }
+    
     point.appendChild(label);
     network.appendChild(point);
 }

@@ -1,19 +1,29 @@
 .request-button {
-  padding: 10px 20px;
-  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  padding: 10px 16px;
+  border-radius: 10px;
+
   background: #0f4310;
   color: white;
+
   border: none;
   cursor: pointer;
+
   position: relative;
   overflow: hidden;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.5s ease;
+
+  transition: border-color 0.25s ease, background-color 0.5s ease;
+  
   font-weight: 600;
   font-size: 1rem;
 }
 .request-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px -6px #0f4310;
+  border-color: #0F4310;
   background-color: #0f4310d2;
 }
 

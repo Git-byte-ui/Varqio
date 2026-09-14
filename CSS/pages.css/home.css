@@ -76,18 +76,6 @@
     margin: 75px auto 0;
 }
 
-.HomeProcessus {
-    display: flex;
-    justify-content: center;
-    height: calc( 100vh - 100px);
-    background-color: aquamarine;
-    align-items: center;
-}
-
-.homeprocessdiv {
-    background-color: blue;
-}
-
 .probspot span {
     color: var(--coul-princ);
     font-weight: 800;
@@ -174,4 +162,97 @@ i {
 
 .point:hover .point-label {
     opacity: 1;
+}
+
+.HomeProcessus {
+    min-height: 80vh;
+    padding: 8rem 5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeprocessdiv {
+    background-color: blue;
+}
+
+.homeprocess-header {
+    text-align: center;
+    max-width: 700px;
+    margin-bottom: 6rem;
+}
+
+.process-step {
+    width: 30%;
+    text-align: center;
+
+    opacity: 0;
+    transform: translateY(30px);
+
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+.process-step.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.process-line {
+    position: relative;
+
+    width: 100%;
+    max-width: 1200px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    top: 20px;
+}
+
+.process-connection {
+    position: absolute;
+
+    top: 20px;
+    left: 15%;
+    right: 15%;
+
+    height: 1px;
+
+    background: #0F4310;
+
+    transform: scaleX(0);
+    transform-origin: left;
+
+    transition: transform 1s ease;
+
+    z-index: 0;
+}
+
+.process-line.visible .process-connection {
+    transform: scaleX(1);
+}
+
+.process-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+
+    border: 1px solid #0F4310;
+    border-radius: 50%;
+
+    background: white;
+    color: #0F4310;
+
+    font-size: 0.85rem;
+    font-weight: 600;
+
+    position: relative;
+    z-index: 2;
 }
