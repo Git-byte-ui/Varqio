@@ -8,7 +8,7 @@
   padding: 10px 16px;
   border-radius: 10px;
 
-  background: #0f4310;
+  background: #0f4310d2;
   color: white;
 
   border: none;
@@ -24,7 +24,7 @@
 }
 .request-button:hover {
   border-color: #0F4310;
-  background-color: #0f4310d2;
+  background-color: #0f4310;
 }
 
 .request-button::after{
