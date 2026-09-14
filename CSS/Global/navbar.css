@@ -6,7 +6,8 @@
     background: #f8f7fa;
 
     position: sticky;
-    top: 5vh;
+    top: 30px;
+    z-index: 100;
 
     height: 100px;
     width: 100%;
