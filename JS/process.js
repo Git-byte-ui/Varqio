@@ -9,15 +9,15 @@ const observer = new IntersectionObserver((entries) => {
         processLine.classList.add("visible");
 
         processSteps.forEach((step, index) => {
-
             setTimeout(() => {
                 step.classList.add("visible");
             }, index * 200);
-
         });
 
     }
 
+}, {
+    threshold: 0.4
 });
 
 observer.observe(processSection);
