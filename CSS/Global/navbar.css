@@ -5,7 +5,7 @@
     padding: 0 24px;
     
 
-    position: sticky;
+    position: relative;
     top: 24px;
     z-index: 100;
 
@@ -30,8 +30,7 @@
 
 .nav-links {
   display: flex;               /* cela met aussi le flexbox: ils sont dans une rangée (horizontale*/
-  gap: 36px;                   /* cela espace de manière assez clean */
-  list-style: none;            /* cela enlève les points des liste li */
+  gap: 36px;                   /* cela espace de manière assez clean */    
 }
 
 .nav-links a {
@@ -86,5 +85,51 @@
 .right-navbar a:hover{
     color: black;
 }
+
+@media screen and (min-width: 768px){
+  .menu-button {
+    display: none;
+  }
+
+}
+.menu-button {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  width: 40px;
+  height: 40px;
+
+  padding: 0;
+  border: 2px solid rgba(128, 128, 128, 0.6);
+  border-radius: 13px;
+  background: none;
+
+  cursor: pointer;
+}
+
+.menu-button span {
+  display: block;
+  width: 22px;
+  height: 3px;
+
+  background-color: rgb(100, 100, 100);
+  transition: transform 0.3s ease, opacity 0.3s ease, scale 0.3s ease;
+}
+
+.menu-button.open span:nth-child(1) {
+    transform: translate(0, 8px) rotate(45deg) scale(1.2);
+}
+
+.menu-button.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-button.open span:nth-child(3) {
+    transform: translate(0, -8px) rotate(-45deg) scale(1.2);
+}
+
 
 /* si navbar < 1200px mettre hamburger menu */
