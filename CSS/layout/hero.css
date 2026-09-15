@@ -21,6 +21,7 @@
     
     animation: heroAppear 2s ease-out forwards;
 }
+
 @keyframes heroAppear {
     from {
         opacity: 0;
