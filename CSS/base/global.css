@@ -20,6 +20,7 @@ html{
     scroll-behavior: smooth;
 }
 
+
 ::selection {
     background-color: #0f4310; /* Couleur de fond */
     color: #ffffff;  

@@ -152,16 +152,53 @@ i {
 
     transform: translate(-50%, 0);
 
-    opacity: 0 ;
+    opacity: 0;
     pointer-events: none;
 
     white-space: nowrap;
+
+    padding: 3px 8px;
+    border-radius: 6px;
+
+    background: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+
+    font-size: 0.8rem;
+    color: #000;
+
+    z-index: 20;
 
     transition: opacity 0.3s ease;
 }
 
 .point:hover .point-label {
     opacity: 1;
+}
+
+.point.active .point-label {
+    opacity: 1;
+}
+
+/* Label collé à un point proche du bord gauche : s'étend vers la droite */
+.point-label.label-left {
+    left: 0;
+    transform: translate(0, 0);
+}
+
+/* Label collé à un point proche du bord droit : s'étend vers la gauche */
+.point-label.label-right {
+    left: auto;
+    right: 0;
+    transform: translate(0, 0);
+}
+
+
+/* Moins de points = ils peuvent être un peu plus gros et visibles sur petit écran */
+@media (max-width: 500px) {
+    .point {
+        width: 10px;
+        height: 10px;
+    }
 }
 
 .HomeProcessus {

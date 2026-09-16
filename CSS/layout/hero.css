@@ -7,6 +7,7 @@
     justify-content: center;
 }
 
+
 .hero-content {
     display: flex;
     flex-direction: column;
@@ -18,8 +19,8 @@
 
     width: 100%;
     max-width: 1300px;
-    
-    animation: heroAppear 2s ease-out forwards;
+
+    animation: heroAppear 1s ease-out forwards;
 }
 
 @keyframes heroAppear {
@@ -27,16 +28,17 @@
         opacity: 0;
         transform: translateY(25px);
     }
-
     to {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
+
 .hero-content span {
-    color: #0F4310;
+    color: var(--couleur-main1);
 }
+
 
 .top-hero {
     display: flex;
@@ -56,10 +58,10 @@
     margin: 0;
 
     text-align: center;
-    font-size: 1rem;
-    line-height: 35px;
+    font-size: 1.05rem;
+    line-height: 1.65;
 
-    color: #4d6e9e;
-    font-weight: 600;
+    color: var(--mutée);
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
 }
-
