@@ -293,3 +293,96 @@ i {
     position: relative;
     z-index: 2;
 }
+
+@media (max-width: 900px) {
+
+    .process-line {
+        flex-direction: column;
+        align-items: stretch;
+
+        gap: 2.5rem;
+    }
+
+    .process-step {
+        width: 100%;
+        max-width: 420px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+
+        padding-left: 60px;
+        position: relative;
+    }
+
+    /* Le numéro sort de son flux normal, se colle à gauche */
+    .process-step .process-number {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    /* La ligne verticale passe par le centre des numéros, donc à gauche */
+    .process-connection {
+        top: 20px;
+        left: 20px;
+        right: auto;
+
+        width: 1px;
+        height: calc(100% - 40px);
+
+        transform: scaleY(0);
+        transform-origin: top;
+    }
+
+    .process-line.visible .process-connection {
+        transform: scaleY(1);
+    }
+}
+.bg-lines {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.15;
+    pointer-events: none;
+}
+
+.bg-lines svg {
+    width: 100%;
+    height: 100%;
+}
+
+.flow-line {
+    stroke-dasharray: 12 8;
+    animation: flowDash 6s linear infinite;
+}
+
+.flow-line:nth-child(2) {
+    animation-duration: 8s;
+    animation-direction: reverse;
+}
+
+.flow-line:nth-child(3) {
+    animation-duration: 7s;
+}
+
+.flow-line:nth-child(4) {
+    animation-duration: 9s;
+    animation-direction: reverse;
+}
+
+@keyframes flowDash {
+    to {
+        stroke-dashoffset: -200;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .flow-line {
+        animation: none;
+    }
+}
