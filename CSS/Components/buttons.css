@@ -101,6 +101,8 @@
     height: 50px;
     padding: 0 22px;
     font-size: 1.05rem;
+    width: 300px;
+    
 }
 
 .investisseur-btn:hover,
@@ -108,4 +110,18 @@
     background-color: var(--couleur-main1);
     transform: translateY(-2px);
     box-shadow: 0 8px 24px -6px var(--couleur-maindeep1);
+}
+@media screen and (max-width: 900px) {
+    .hero-btns {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .investisseur-btn,
+    .postul-btn {
+        height: 50px;
+        padding: 0 22px;
+        font-size: 1.05rem;
+        width: 300px;
+    }   
 }

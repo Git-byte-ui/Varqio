@@ -42,11 +42,19 @@ h1, h2, h3, h4, h5, h6, p{
 .home-h1 {
     font-family: 'Bricolage Grotesque', sans-serif;
     font-weight: 800;
-    font-size: clamp(2rem, 5vw + 1rem, 7rem);
-    text-align: center;
+    font-size: clamp(2rem, 5vw + 1rem, 6rem);
+    text-align: left;
     color: black;
 }
-
+@media screen and (max-width: 900px) {
+    .home-h1 {
+        text-align: center;
+    }
+    .hero p {
+        text-align: center;
+        padding-right: 0;
+    }
+}
 
 h2 {
     font-size: clamp(1.5rem, 3vw + 0.5rem, 4rem);
