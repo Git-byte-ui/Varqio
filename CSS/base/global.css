@@ -70,3 +70,21 @@ html{
         animation: none;
     }
 }
+
+
+.fa-solid {
+    background: none;
+    color: white;
+}
+
+.fa-chart-line {
+    background: none;
+    color: black;
+    padding: 0 10px;
+}
+
+.fa-rocket {
+    background: none;
+    color: black;
+    padding: 0 10px;
+}

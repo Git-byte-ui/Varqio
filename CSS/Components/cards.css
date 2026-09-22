@@ -26,3 +26,56 @@
     justify-content: center;
     margin-bottom: 20px;
 }
+
+.has-card {
+    width: 100%;  
+    
+
+    border-radius: 16px;
+    background-color: white;
+    border: 4px solid #1e29384b;
+    
+    padding: 24px;
+}
+
+.has-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;;
+
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #767676;
+    margin-bottom: 16px;
+
+}
+
+.has-card hr {
+    border: 1px solid rgba(0, 0, 0, 0.1)
+}
+.has-row {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 0.9rem;
+    font-weight: 700;
+
+    padding: 10px 0;
+}
+
+.has-profile {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 10px;
+    border: 1px solid #bdc0c4;
+    background-color: #24395e80;
+
+    padding: 14px;
+    margin: 10px;
+}
+
+.has-profile h3, .has-profile span{
+    text-align: left;
+}
+

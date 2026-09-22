@@ -309,15 +309,14 @@ i {
 
 .haudience-section {
     width: 100vw;
-    background-color: rgb(0, 200, 200); /* temporaire */
-    display: flex;
+
     align-items: center;
     justify-content: center;
 }
 .haudience-sec-content {
     height: 100vh;
     display:grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1.1fr 1fr;
     align-items: center;
     justify-content: center;
     
@@ -327,60 +326,6 @@ i {
     gap: 3rem;
 }
 
-.has-card {
-    width: 100%; 
-    height: 350px;  
-    max-width: 500px;;
-
-    border-radius: 16px;
-    background-color: white;
-    border: 4px solid #1e29384b;
-    
-    padding: 24px;
-    
-}
-
-.has-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;;
-
-    font-size: 0.75rem;
-    font-weight: 700;
-    color: #767676;
-    margin-bottom: 16px;
-
-}
-
-.has-card hr {
-    border: 1px solid rgba(0, 0, 0, 0.1)
-}
-.has-row {
-    display: flex;
-    justify-content: space-between;
-
-    font-size: 0.9rem;
-    font-weight: 700;
-
-    padding: 10px 0;
-}
-
-.has-profile {
-    display: flex;
-    flex-direction: column;
-
-    border-radius: 10px;
-    border: 1px solid #bdc0c4;
-    background-color: #24395e80;
-
-    padding: 14px;
-    margin: 10px;
-}
-
-.has-profile h3, .has-profile span{
-    text-align: left;
-}
-
 .ha-sec-left {
     display:flex;
     flex-direction: column;
@@ -388,6 +333,7 @@ i {
 
     gap: 10px;
 }
+
 
 .ha-sec-left h2{
     text-align: left;
@@ -409,7 +355,16 @@ i {
 }
 
 .ha-sec-left h4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
     text-align: left;
+}
+
+.ha-sec-left h4 i {
+    color: #0F4310;
+    font-size: 0.9em;
 }
 
 .ha-sec-left li {
@@ -419,7 +374,7 @@ i {
     font-family: 'Inter', sans-serif;
     
     font-weight: 700;
-
+    margin: 5px;
 }
 
 @media screen and (max-width: 1020px) { 
@@ -433,4 +388,17 @@ i {
     .ha-sec-left h2{
     text-align: left;
     }      
+}
+
+.haudience-sec-content-2 {
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 1fr 1.1fr;
+    align-items: center;
+    justify-content: center;
+    
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 6rem 24px;
+    gap: 5rem;
 }
