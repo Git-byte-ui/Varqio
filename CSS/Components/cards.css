@@ -79,3 +79,51 @@
     text-align: left;
 }
 
+.tar-h-card {
+    width: 400px;
+    max-width: 100%;
+
+    margin: 0 auto; /* centre la carte dans sa colonne */
+
+    border-radius: 20px;
+    background-color: #bdc1c938;
+
+}
+
+.pricing-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding:20px;
+}
+
+.pricing-row h4{
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.pricing-row strong{
+    font-size: 2rem;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 900;
+}
+
+.pricing-row-top {
+    border-width: 2px 2px 1px 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px 20px 0 0;
+}
+
+.pricing-row-middle {
+    border-width: 1px 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+.pricing-row-bottom {
+    border-width: 1px 2px 2px 2px;
+    border-style: solid;
+    border-color:rgba(0, 0, 0, 0.5);
+    border-radius: 0 0 20px 20px;
+}
