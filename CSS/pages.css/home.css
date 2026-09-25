@@ -438,7 +438,7 @@ i {
 }
 
 .tar-h-left span {
-    color: var(--couleur-main1);
+    color: var(--couleur-maindeep1);
 }
 
 .tar-h-left p, .tar-h-left h2 {
@@ -449,3 +449,19 @@ i {
     font-weight: 700;
     color: rgba(0, 0, 0, 0.5);
 }
+
+.rej-home-div {
+    display:flex;
+    justify-content: center;
+
+    width: 100vw;
+}
+
+.rej-h-content {
+    max-width: 1300px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
