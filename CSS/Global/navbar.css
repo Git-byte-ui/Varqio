@@ -87,10 +87,6 @@
 }
 
 .nav-links {
-    display: none;
-}
-
-.nav-links.open {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -109,6 +105,30 @@
     border-radius: 16px;
 
     box-sizing: border-box;
+
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    pointer-events: none;
+
+    transition:
+        opacity 0.4s ease,
+        transform 0.4s ease,
+        visibility 0s linear 0.25s;
+}
+
+
+.nav-links.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+
+    transition:
+        opacity 0.4s ease,
+        transform 0.4s ease,
+        visibility 0s linear 0s;
+
 }
 
 .nvb-midbtn {
@@ -181,15 +201,23 @@
     }
 
     .nav-links {
+        position: static;
+
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 36px;
-        position: static;
+
         padding: 0;
         background: none;
         border: none;
         border-radius: 0;
+
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        pointer-events: auto;
+        transition: none;
     }
 
     .right-navbar {

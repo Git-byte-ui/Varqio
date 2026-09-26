@@ -29,6 +29,14 @@
   background-color: #0f4310;
 }
 
+@media (max-width: 749px) { 
+    .request-button {
+        min-width: 50%;
+    }
+    .right-navbtn {
+        min-width: 50%;
+    }
+}
 
 
 .investisseur-btn {
