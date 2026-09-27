@@ -68,8 +68,8 @@
 .postul-btn {
     padding: 16px;
     border-radius: 6px;
-    background-color: #a8adaf81;
-    border: 1.5px solid rgb(85, 80, 80);
+    background-color: #b6bbbdcc;
+    border: 2px solid rgb(85, 80, 80);
     cursor: pointer;
     font-weight: 750;
     border-color: rgba(20, 23, 15, 0.2);
@@ -78,8 +78,8 @@
 }
 
 .postul-btn:hover {
-    border-color: var(--forest);
-    color: var(--forest);
+    border-color: var(--couleur-maindeep1);
+    color: var(--couleur-maindeep1);
     transform: translateY(-2px);
 }
 

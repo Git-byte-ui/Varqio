@@ -65,8 +65,9 @@
     margin-bottom: 12px;
 }
 
-.footer-logo, .logo-text {
+.footer-logo, .footer-logo-text {
     font-size: 1.2rem;
+    font-weight: 900;
 }
 
 .footer-tagline {
