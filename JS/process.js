@@ -1,23 +1,18 @@
-const processSection = document.querySelector(".HomeProcessus");
 const processLine = document.querySelector(".process-line");
 const processSteps = document.querySelectorAll(".process-step");
 
-const observer = new IntersectionObserver((entries) => {
+if (processLine) {
+    const observer = new IntersectionObserver((entries, obs) => {
+        if (entries[0].isIntersecting) {
+            processLine.classList.add("visible");
 
-    if (entries[0].isIntersecting) {
+            processSteps.forEach((step, index) => {
+                setTimeout(() => step.classList.add("visible"), index * 200);
+            });
 
-        processLine.classList.add("visible");
+            obs.disconnect();
+        }
+    }, { threshold: 0.15 });
 
-        processSteps.forEach((step, index) => {
-            setTimeout(() => {
-                step.classList.add("visible");
-            }, index * 200);
-        });
-
-    }
-
-}, {
-    threshold: 0.4
-});
-
-observer.observe(processSection);
+    observer.observe(processLine);
+}

@@ -19,14 +19,14 @@ html {
 }
 
 body {
-    background-color: #FAFAFA;
-    color: black;
-    font-family: "Manrope", sans-serif;
-    text-align: center;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+    
+    background-color: #FAFAFA;
+    color: black;
+    font-family: "Manrope", sans-serif;    
 }
 
 ::selection {
