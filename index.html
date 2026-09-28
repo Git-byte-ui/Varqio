@@ -21,6 +21,22 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     </head>
     <body>
+    <div class="bg-lines" aria-hidden="true">
+        <svg class="bg-line bg-line-1" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+            <path d="M -200 150 C 200 50, 500 250, 900 120 S 1600 180, 1900 80"
+                  fill="none" stroke="#0F4310" stroke-width="1" stroke-dasharray="6 14" />
+        </svg>
+
+        <svg class="bg-line bg-line-2" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+            <path d="M -200 450 C 250 550, 600 350, 950 480 S 1650 400, 1900 500"
+                  fill="none" stroke="#0F4310" stroke-width="1" stroke-dasharray="6 14" />
+        </svg>
+
+        <svg class="bg-line bg-line-3" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+            <path d="M -200 750 C 300 650, 650 820, 1000 700 S 1650 780, 1900 680"
+                  fill="none" stroke="#0F4310" stroke-width="1" stroke-dasharray="6 14" />
+        </svg>
+    </div>
         <nav class="navbar">
 
     <div>
@@ -266,7 +282,7 @@
                     <h3>VARQIO</h3>
                     <h2>La bonne connexion peut tout changer.</h2>
                     <p>Rejoignez la plateforme axée sur l'efficacité.</p>
-                    <section>
+                    <section class="rhc-btn-sec">                                               <!-- rhc = rejoindre - home- card  -->
                         <button class="investisseur-btn">Je suis un investisseur </button>
                         <button class="postul-btn">Je suis un fondatuer</button>
                     </section>
@@ -311,16 +327,5 @@
         <script src="JS/points.js"></script>
         <script src="JS/process.js"></script>
         <script src="JS/menuButton.js"></script>
-        <script src="JS/background-network.js"></script>
     </body>
-    <div class="bg-lines" aria-hidden="true">
-    <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" width="100%" height="100%">
-        <path class="flow-line" d="M -200 150 C 200 50, 500 250, 900 120 S 1600 180, 1900 80" 
-              fill="none" stroke="#0F4310" stroke-width="1" />
-        <path class="flow-line" d="M -200 450 C 250 550, 600 350, 950 480 S 1650 400, 1900 500" 
-              fill="none" stroke="#0F4310" stroke-width="1" />
-        <path class="flow-line" d="M -200 750 C 300 650, 650 820, 1000 700 S 1650 780, 1900 680" 
-              fill="none" stroke="#0F4310" stroke-width="1" />
-    </svg>
-</div>
 </html>
