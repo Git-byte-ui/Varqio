@@ -124,6 +124,7 @@
     transform: translateY(0);
     pointer-events: auto;
 
+    background: rgba(255, 255, 255, 0.9);
     transition:
         opacity 0.4s ease,
         transform 0.4s ease,
@@ -133,7 +134,7 @@
 
 .nvb-midbtn {
     color: #93939f;
-    background-color: #f8f7fa;
+    background-color: #f8f7fabb;
 
     font-weight: 800;
 
