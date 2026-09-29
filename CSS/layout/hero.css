@@ -200,8 +200,7 @@
         margin: 0;
     }
 
-    .hero h1,
-    .hero-p {
+    .hero h1 {
         text-align: center;
     }
 
@@ -212,6 +211,7 @@
     .hero p {
         width: 100%;
         padding: 10px 0;
+        text-align: center;
     }
 
     .hero-btns {

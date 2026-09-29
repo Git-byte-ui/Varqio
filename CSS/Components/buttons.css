@@ -194,6 +194,7 @@
 }
 
 .has-btn i {
+    background: transparent;
     transition: transform 0.5s ease;
 }
 
