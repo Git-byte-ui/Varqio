@@ -7,7 +7,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="CSS/Components/cards.css">
         <link rel="stylesheet" href="CSS/Components/buttons.css">
         <link rel="stylesheet" href="CSS/base/global.css">
@@ -70,7 +69,7 @@
     <header class="hero">
         <div class="hero-grid">
 
-        <div class="hero-content">
+        <div class="hero-content reveal-left">
             <div class="top-hero">
                 <h1 class="home-h1"> La plateforme à la hauteur de <span> vos exigences</span></h1>
                 
@@ -82,7 +81,7 @@
             </div>
         </div>
 
-        <div class="hero-mockup">
+        <div class="hero-mockup reveal-up reveal-delay">
             <div class="founder-card">
                 <div class="founder-card-top">
                     <div class="founder-avatar"></div>
@@ -109,15 +108,15 @@
         </header>
         <div class="homeprob">
             <div class="probspot">
-                <h2> Trouver la bonne <span>connexion</span> ne devrait pas revenir à chercher dans le bruit</h2>
-                <div class="network">
+                <h2 class="reveal-left"> Trouver la bonne <span>connexion</span> ne devrait pas revenir à chercher dans le bruit</h2>
+                <div class="network reveal">
 
                 </div>   
             </div>
         </div>
         <section class="HomeProcessus">
 
-            <div class="homeprocess-header">
+            <div class="homeprocess-header reveal-up">
                 <p>LE PROCESSUS</p>
                  <h2>De la première connexion à la bonne rencontre.</h2>
             </div>
@@ -157,7 +156,7 @@
         </section>
         <section  class="haudience-section">
             <div class="haudience-sec-content">
-                <div class="ha-sec-left">
+                <div class="ha-sec-left reveal-left">
                     <h4><i class="fa-solid fa-rocket"></i>POUR LES FONDATEURS</h4>
                     <h2>Dépensez moins de temps à rechercher. Plus de temps à construire</h2>
                     <p>Dites à Varqio ce que vous levez et pourquoi. Découvrez ensuite des investisseurs déja alignés avec votre vision.</p>
@@ -168,9 +167,9 @@
                         <li>Rencontrez des investisseurs pertients</li>
                         <li>Recevez des retours sur votre dossier</li>
                     </ol>
-                    <buttton class="fond-btn" href="#">Je suis un fondateur</buttton>
+                    <button class="fond-btn" href="#">Je suis un fondateur</button>
                 </div>
-                <div class="has-card">
+                <div class="has-card reveal-up reveal-delay">
                     <div class="has-header">
                         <h4 class="has-h4">Votre dossier de levée de fonds</h4>
                         <span>Complet</span>
@@ -201,7 +200,7 @@
         </section>
         <section  class="haudience-section">
             <div class="haudience-sec-content-2">
-                <div class="has-card">
+                <div class="has-card reveal-up reveal-delay">
                     <div class="has-header">
                         <h4 class="has-h4">VOTRE THESE D'INVESTISSEMENT</h4>
                         <span>Complète</span>
@@ -228,7 +227,7 @@
                         <strong>1M€-2M€</strong>
                     </div>
                 </div>
-                <div class="ha-sec-left">
+                <div class="ha-sec-left reveal-left">
                     <h4><i class="fa-solid fa-chart-line"></i>POUR LES INVESTISSEURS</h4>
                     <h2>Découvrez des opportunités qui correspondent à votre thèse.</h2>
                     <p>Définissez les critères qui comptent pour vous et explorez des profils de fondateurs qui sont vérifiés.</p>
@@ -239,19 +238,19 @@
                         <li>Consultez des profils structurés</li>
                         <li>Rencontrez des fondateurs qui vous intéressent</li>
                     </ol>
-                    <buttton class="fond-btn" href="#">Je suis un investisseur</buttton>
+                    <button class="fond-btn" href="#">Je suis un investisseur</button>
                 </div>
             </div>
         </section>
         
         <div class="tarif-home">
             <div class="tarif-h-content">
-                <div class="tar-h-left">
+                <div class="tar-h-left reveal-left">
                     <p>Tarfification</p>
                     <h2>Simple. Honnête. <span>Aucune surprise.</span></h2>
                     <p>Une commission est effectuée sur la levée. Vos fonds sont protégés jusqu'à la validation finale. Vous ne payerez qu'une fois le deal signé.</p>
                 </div>
-                <div class="tar-h-card">
+                <div class="tar-h-card reveal-up reveal-delay">
                     <div class="pricing-row pricing-row-top"> 
                         <h4>0€ - 500K€</h4>
                         <strong>7%</strong>
@@ -270,7 +269,7 @@
         </div>
         <div class="rej-home-div">
             <div class="rej-h-content">
-                <div class="rej-home-card">
+                <div class="rej-home-card reveal-up">
                     <h3>VARQIO</h3>
                     <h2>La bonne connexion peut tout changer.</h2>
                     <p>Rejoignez la plateforme axée sur l'efficacité.</p>
@@ -319,5 +318,6 @@
         <script src="JS/points.js"></script>
         <script src="JS/process.js"></script>
         <script src="JS/menuButton.js"></script>
+        <script src="JS/scrollReveal.js"></script>
     </body>
 </html>

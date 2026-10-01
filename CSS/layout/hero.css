@@ -39,24 +39,7 @@
 
     width: 100%;
     max-width: 1300px;
-
-    animation: heroAppear 1s ease-out forwards;
 }
-
-
-
-
-@keyframes heroAppear {
-    from {
-        opacity: 0;
-        transform: translateY(25px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 
 .hero-content span {
     color: var(--couleur-main1);
