@@ -73,13 +73,22 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (p !== point) p.classList.remove("active");
             });
 
-            point.classList.toggle("active");
+            // L'étoile reste toujours active, elle ne se ferme jamais au clic
+            if (point.classList.contains("star")) {
+                point.classList.add("active");
+            } else {
+                point.classList.toggle("active");
+            }
         });
     });
 
     document.addEventListener("click", (e) => {
         if (!e.target.closest(".point")) {
-            points.forEach((p) => p.classList.remove("active"));
+            points.forEach((p) => {
+                if (!p.classList.contains("star")) {
+                    p.classList.remove("active");
+                }
+            });
         }
     });
 });

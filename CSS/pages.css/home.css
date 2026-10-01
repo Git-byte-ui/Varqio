@@ -64,6 +64,8 @@ i {
 .network {
     position: relative;
 
+    -webkit-tap-highlight-color: transparent;
+
     width: min(1300px, calc(100% - 40px));
     height: clamp(260px, 70vw, 400px);
 
@@ -78,11 +80,16 @@ i {
 .point {
     position: absolute;
 
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    user-select: none;
+
     width: 8px;
     height: 8px;
 
     border-radius: 50%;
     background: #000000;
+    outline: none;
 
     transform: translate(-50%, -50%);
 
