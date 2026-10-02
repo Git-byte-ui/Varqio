@@ -47,7 +47,7 @@
     
     align-items: center;
     border-radius: 6px;
-    font-weight: 800;
+
     background-color: #0F4310;
     color: white;
     border: none;
@@ -67,7 +67,7 @@
     box-shadow: 0 8px 24px -6px var(--couleur-main1);
 }
 
-/* refaire plus tard (boutons) */
+
 .postul-btn {
     max-width:80%;
     padding: 16px;
@@ -75,7 +75,7 @@
     background-color: #b6bbbdcc;
     border: 2px solid rgb(85, 80, 80);
     cursor: pointer;
-    font-weight: 750;
+
     border-color: rgba(20, 23, 15, 0.2);
     color: var(--encre);
 
