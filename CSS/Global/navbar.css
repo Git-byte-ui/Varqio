@@ -132,13 +132,19 @@
 
 }
 
-.nvb-midbtn {
+.nvb-midlink {
+    font-size: 18px;
+
     color: #93939f;
     background-color: #f8f7fabb;
 
-    font-weight: 800;
+    user-select:none;
 
+    font-weight: 800;
+    
     border-radius: 12px;
+
+    text-decoration: none;
 
     padding: 5px;
 
@@ -147,8 +153,9 @@
     transition: background-color 0.4s ease;
 }
 
-.nvb-midbtn:hover {
+.nvb-midlink:hover {
     background-color: rgba(200, 200, 200, 1);
+    cursor: pointer;
 }
 
 .right-navbtn {
