@@ -29,6 +29,11 @@ body {
     font-family: "Manrope", sans-serif;    
 }
 
+
+.resizing * {
+    transition: none !important;
+}
+
 ::selection {
     background-color: #0f4310;
     color: #ffffff;

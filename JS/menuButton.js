@@ -1,5 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+    // Coupe toutes les transitions pendant le redimensionnement de la fenêtre
+    let resizeTimer;
+    window.addEventListener("resize", () => {
+        document.body.classList.add("resizing");
+
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(() => {
+            document.body.classList.remove("resizing");
+        }, 200);
+    });
+
     const menuButton = document.querySelector(".menu-button");
     const navLinks = document.querySelector(".nav-links");
 
