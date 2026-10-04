@@ -63,6 +63,20 @@ body {
     border-width: 1px;
 }
 
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 3px;
+    width: 0%;
+
+    background-color: #0F4310;
+
+    z-index: 200;
+
+    transition: width 0.1s ease-out;
+}
 
 .bg-lines {
     position: fixed;
