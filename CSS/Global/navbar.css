@@ -39,6 +39,36 @@
 
     background: none;
     border: none;
+    
+    user-select: none;
+
+    text-decoration: none;
+}
+
+.animHButton {
+    position: relative;
+    overflow: hidden;
+}
+
+.animHButton::after {
+    content: "";
+    position:absolute;
+    left:0;
+    bottom:0;
+
+    width: 100%;
+    height: 2px;
+
+    background-color: #0F4310;
+
+    transform: scaleX(0);
+    transform-origin: left;
+
+    transition: transform 0.3s ease;
+}
+
+.animHButton:hover::after {
+    transform: scaleX(1);
 }
 
 .menu-button {
@@ -233,4 +263,21 @@
         font-size: 21px;
         font-weight: 700;
     }
+}
+
+.nvb-midlink.current-page {
+    color: #0F4310;
+    font-weight: 800;
+
+    pointer-events: none;
+    cursor: default;
+}
+
+.nvb-midlink.current-page:hover {
+    background-color: transparent;
+}
+
+.homeButton.is-home {
+    cursor: default;
+    pointer-events: none;
 }
