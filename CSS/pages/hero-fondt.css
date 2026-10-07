@@ -1,0 +1,42 @@
+.hero-fondt {
+    min-height: 50vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.hero-content {
+    width: 100%;
+    max-width: 1300px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 4rem ;
+    gap: 100px;
+}
+
+.left-hero {
+    max-width: 49%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+
+    gap: 2rem;
+    
+}
+
+.right-hero {
+    max-width: 49%;
+
+    display:flex;
+    flex-direction: center;
+    align-items: center;
+    
+}

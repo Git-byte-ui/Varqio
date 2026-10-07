@@ -42,14 +42,18 @@ h1, h2, h3, h4 {
     font-family: 'Bricolage Grotesque', sans-serif;
 }
 
-.home-h1 {
+.hero-h1 {
     font-weight: 800;
     font-size: clamp(3rem, 5vw + 1rem, 6rem);
     text-align: left;
     color: black;
 }
 
-
+.hero-fond-h1 {
+    font-weight: 800;
+    font-size: clamp(3rem, 5vw + 1rem, 6rem);
+    color: black;
+}
 
 @media screen and (max-width: 1020px) {
     .home-h1 {
@@ -65,7 +69,7 @@ h2 {
 
 
 
-.HomeProcessus p {
+.HomeProcessus  > p {
     font-weight: 700;
 }
 

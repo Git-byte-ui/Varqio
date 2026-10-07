@@ -200,3 +200,10 @@
 .rej-home-card h2 {
     max-width:70%;
 }
+
+.hero-f-card {
+    width: 400px;
+    height:200px;
+
+    background-color: rgba(0, 0, 0, 0.15);
+}
