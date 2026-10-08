@@ -42,32 +42,29 @@ h1, h2, h3, h4 {
     font-family: 'Bricolage Grotesque', sans-serif;
 }
 
-.hero-h1 {
+.hero-h-h1 {
     font-weight: 800;
     font-size: clamp(3rem, 5vw + 1rem, 6rem);
     text-align: left;
     color: black;
 }
 
-.hero-fond-h1 {
+.f-hero-h1 {
     font-weight: 800;
-    font-size: clamp(3rem, 5vw + 1rem, 6rem);
+    text-align: left;
+    font-size: clamp(3rem, 6vw + 1rem, 6rem);
     color: black;
 }
 
-@media screen and (max-width: 1020px) {
-    .home-h1 {
-        text-align: center;
-    }
+.f-hero-h1 span {
+    color: var(--coul-princ)
 }
-
+ 
 h2 {
     font-size: clamp(1.9rem, 4vw + 0.8rem, 3rem);
     font-weight: 700;
     color: black;
 }
-
-
 
 .HomeProcessus  > p {
     font-weight: 700;
