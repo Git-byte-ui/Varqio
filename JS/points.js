@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (p !== point) p.classList.remove("active");
             });
 
-            // L'étoile reste toujours active, elle ne se ferme jamais au clic
+            // L'étoile reste toujours active, elle ne se ferme jamais au clicp
             if (point.classList.contains("star")) {
                 point.classList.add("active");
             } else {

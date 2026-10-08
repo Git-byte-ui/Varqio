@@ -44,7 +44,7 @@ h1, h2, h3, h4 {
 
 .hero-h-h1 {
     font-weight: 800;
-    font-size: clamp(3rem, 5vw + 1rem, 6rem);
+    font-size: clamp(2.9rem, 5vw + 1rem, 6rem);
     text-align: left;
     color: black;
 }
