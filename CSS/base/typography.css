@@ -42,9 +42,13 @@ h1, h2, h3, h4 {
     font-family: 'Bricolage Grotesque', sans-serif;
 }
 
+h4 {
+    color: rgba(0, 0, 0, 0.45)
+}
+
 .hero-h-h1 {
     font-weight: 800;
-    font-size: clamp(2.9rem, 5vw + 1rem, 6rem);
+    font-size: clamp(2.9rem, 6vw + 1rem, 6rem);
     text-align: left;
     color: black;
 }
