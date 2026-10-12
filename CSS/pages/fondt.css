@@ -28,3 +28,33 @@
     gap: 10px;
 }
 
+.why-us {
+    display:flex;
+    justify-content: center;
+
+    width: 100vw;
+    padding: 6rem 24px;
+}
+
+.why-content {
+    width: 100%;
+    max-width: 1300px;
+}
+
+.why-top {
+    text-align:center;
+    max-width: 600px;
+    margin: 0 auto 4rem;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+@media screen and (max-width: 800px) {
+    .why-grid {
+        grid-template-columns: 1fr;
+        gap:2rem;
+    }
+}
