@@ -491,34 +491,8 @@ i {
     }
 }
 
-.rej-home-div {
-    display:flex;
-    justify-content: center;
-
-    width: 100vw;
-}
-
-.rej-h-content {
-    width: 100%;
-    max-width: 1300px;
-
-    display:flex;
-    justify-content: center;
-    align-items: center;
-
-    margin: clamp(1.5rem, 4vw, 4rem) 16px;
-}
-
-.rhc-btn-sec {
-    display:flex;
-    justify-content: center;
-    align-items: center;
- 
-    gap: 1rem;
-}
-
 @media screen and (max-width:726px) {
-    .rhc-btn-sec {
+    .rc-btn-sec {
         display:flex;
         justify-content: center;
         flex-direction: column;

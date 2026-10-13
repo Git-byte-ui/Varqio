@@ -146,7 +146,35 @@
     border-radius: 0 0 20px 20px;
 }
 
-.rej-home-card {
+
+
+.rej-div {
+    display:flex;
+    justify-content: center;
+
+    width: 100vw;
+}
+
+.rej-content {
+    width: 100%;
+    max-width: 1300px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: clamp(1.5rem, 4vw, 4rem) 16px;
+}
+
+.rc-btn-sec {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ 
+    gap: 1rem;
+}
+
+.rej-card {
     position: relative;
     overflow: hidden;
 
@@ -167,7 +195,7 @@
     padding: clamp(28px, 6vw, 80px);
 }
 
-.rej-home-card::before {
+.rej-card::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -184,23 +212,27 @@
     transition: opacity 2.5s ease;
 }
 
-.rej-home-card:hover::before {
+.rej-card:hover::before {
     opacity: 1;
 }
 
-.rej-home-card > * {
+.rej-card > * {
     position: relative;
     z-index: 1;
 }
 
-.rej-home-card h3 {
+.rej-card h3 {
     color: var(--coul-princ)
 }
 
-.rej-home-card h2 {
+.rej-card h2 {
     max-width:100%;
+    font-weight: 800;
+
     word-break: break-word;
     overflow-wrap: break-word;
+
+    font-size: clamp(1.4rem, 5vw, 3rem)
 }
 
 .hero-f-card {
