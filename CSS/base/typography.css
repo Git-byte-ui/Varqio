@@ -56,7 +56,7 @@ h4 {
 .f-hero-h1 {
     font-weight: 800;
     text-align: left;
-    font-size: clamp(2rem, 6vw + 1rem, 6rem);
+    font-size: clamp(2.7rem, 6vw + 1rem, 6rem);
     color: black;
 }
 
