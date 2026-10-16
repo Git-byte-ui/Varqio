@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const revealEls = document.querySelectorAll(".reveal, .reveal-left, .reveal-up");
+    const revealEls = document.querySelectorAll(".reveal, .reveal-left, .reveal-up, .reveal-right");
     if (!revealEls.length) return;
 
     const observer = new IntersectionObserver((entries, obs) => {

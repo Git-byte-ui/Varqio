@@ -140,13 +140,6 @@ body {
     }
 }
 
-.reveal,
-.reveal-left,
-.reveal-up {
-    opacity: 0;
-    transition: opacity 0.7s ease, transform 0.7s ease;
-}
-
 .reveal-left {
     transform: translateX(-30px);
 }
@@ -155,9 +148,22 @@ body {
     transform: translateY(24px);
 }
 
+.reveal-right {
+    transform: translateX(30px);
+}
+
+.reveal,
+.reveal-left,
+.reveal-up,
+.reveal-right {
+    opacity: 0;
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
 .reveal.visible,
 .reveal-left.visible,
-.reveal-up.visible {
+.reveal-up.visible, 
+.reveal-right.visible {
     opacity: 1;
     transform: translate(0, 0);
 }

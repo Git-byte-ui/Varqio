@@ -43,7 +43,7 @@ h1, h2, h3, h4 {
 }
 
 h4 {
-    color: rgba(0, 0, 0, 0.45)
+    color: rgba(0, 0, 0, 0.45);
 }
 
 .hero-h-h1 {
@@ -56,12 +56,12 @@ h4 {
 .f-hero-h1 {
     font-weight: 800;
     text-align: left;
-    font-size: clamp(2.7rem, 6vw + 1rem, 6rem);
+    font-size: clamp(2.6rem, 6vw + 1rem, 6rem);
     color: black;
 }
 
 .f-hero-h1 span {
-    color: var(--coul-princ)
+    color: var(--coul-princ);
 }
  
 h2 {
