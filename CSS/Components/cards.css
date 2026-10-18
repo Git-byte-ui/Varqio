@@ -236,10 +236,15 @@
 }
 
 .hero-f-card {
-    width: 400px;
-    height:200px;
+    width: 100%;
+    max-width: 380px;
 
-    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 20px 60px -20px rgba(0, 0, 0, 0.15);
+
+    padding: 24px;
 }
 
 @media screen and (max-width: 1020px) {
@@ -354,4 +359,3 @@
     color: #5B6259;
     text-align: left;
 }
-

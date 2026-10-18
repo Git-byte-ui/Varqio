@@ -1,0 +1,13 @@
+.inv-hero {
+    display:flex;
+    justify-content: center;
+
+    height: 100vh;
+    width: 100vw,
+}
+
+.ih-content {
+    display:flex;
+
+    max-width: 1300px;
+}
