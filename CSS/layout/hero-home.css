@@ -48,31 +48,15 @@
 
 .top-hero-h {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 
-    gap: clamp(40px, 6vw, 90px);
+    gap:20px;
 
     width: 100%;
-    padding: 20px;
+    padding: 0 20px;
 }
-
-.hero-h-p {
-    width: 90%;
-    max-width: 600px;
-
-    margin: 0;
-
-    text-align: left;
-    font-size: 1.05rem;
-    line-height: 1.65;
-     padding: 20px;
-
-    color: var(--mutée);
-    font-weight: 500;
-    font-family: 'Inter', sans-serif;
-}
-
 .hero-h-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -183,20 +167,10 @@
         margin: 0;
     }
 
-    .hero-h-h1 {
-        text-align: center;
+    .top-hero-h {
+        align-items: center;
     }
-
-    .top-h-hero {
-        padding: 0;
-    }
-
-    .hero-h-p {
-        width: 100%;
-        padding: 10px 0;
-        text-align: center;
-    }
-
+    
     .hero-btns {
         flex-wrap: wrap;
         justify-content: center;

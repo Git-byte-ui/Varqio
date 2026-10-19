@@ -359,3 +359,11 @@
     color: #5B6259;
     text-align: left;
 }
+
+.ih-card {
+    display:flex;
+
+    width: 400px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.4);
+}

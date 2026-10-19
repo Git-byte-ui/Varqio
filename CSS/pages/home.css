@@ -34,12 +34,6 @@
     margin: 75px auto 0;
 }
 
-.probspot span {
-    color: var(--coul-princ);
-    font-weight: 800;
-}
-
-
 i {
     background-color: transparent;
     border-radius: 3px;

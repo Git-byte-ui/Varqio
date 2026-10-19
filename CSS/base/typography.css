@@ -46,21 +46,36 @@ h4 {
     color: rgba(0, 0, 0, 0.45);
 }
 
-.hero-h-h1 {
-    font-weight: 800;
-    font-size: clamp(2.9rem, 6vw + 1rem, 6rem);
-    text-align: left;
-    color: black;
-}
-
-.f-hero-h1, .ih-h1 {
+.hero-h1 {
     font-weight: 800;
     text-align: left;
     font-size: clamp(2.6rem, 6vw + 1rem, 6rem);
     color: black;
 }
 
-.f-hero-h1 span {
+.hero-p {
+    width: 90%;
+    max-width: 600px;
+
+    margin: 0;
+
+    text-align: left;
+    font-size: 1.05rem;
+    line-height: 1.65;
+
+    color: var(--mutée);
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+@media screen and (max-width: 1020px) {
+    .hero-h1, .hero-p  {
+        text-align:center;
+    }
+    
+}
+
+.hero-h1 span {
     color: var(--coul-princ);
 }
  
@@ -73,4 +88,3 @@ h2 {
 .HomeProcessus  > p {
     font-weight: 700;
 }
-

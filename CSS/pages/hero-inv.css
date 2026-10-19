@@ -1,13 +1,31 @@
 .inv-hero {
     display:flex;
     justify-content: center;
+    align-items: center;
 
     height: 100vh;
-    width: 100vw,
+    width: 100vw;
+
+    padding: 30px;
 }
 
 .ih-content {
-    display:flex;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 
     max-width: 1300px;
 }
+
+@media screen and (max-width: 1020px) {
+    .ih-content {
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        align-items: center;
+
+        gap: 35px;
+    }
+}
+

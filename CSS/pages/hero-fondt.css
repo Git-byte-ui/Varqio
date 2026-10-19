@@ -42,22 +42,6 @@
     
 }
 
-.f-left-hero p {
-    width: 90%;
-    max-width: 600px;
-
-    margin: 0;
-
-    text-align: left;
-    font-size: 1.05rem;
-    line-height: 1.65;
-
-    color: var(--mutée);
-    font-weight: 500;
-    font-family: 'Inter', sans-serif;
-}
-
-
 @media screen and (max-width: 1020px) {
     .f-hero-content {
         flex-direction: column;
@@ -65,15 +49,7 @@
         text-align: center;
     }
 
-    .f-hero-h1 {
-        text-align: center;
-    }
-
     .f-left-hero {
         align-items: center;
-    }
-
-    .f-left-hero p {
-        text-align: center;
     }
 }
