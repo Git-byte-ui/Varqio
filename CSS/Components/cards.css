@@ -363,7 +363,54 @@
 .ih-card {
     display:flex;
 
-    width: 400px;
+    min-width: 100px;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.4);
+}
+
+.inv-i-card {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 1100px;
+
+    border-radius: 20px;
+    padding: 50px 40px;
+
+    background-color: #fff;
+}
+
+.ii-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    flex: 1;
+    padding: 0 20px;
+
+    gap: 16px;
+}
+
+.ii-row h2,
+.ii-row h4,
+.ii-row p {
+    text-align: left;
+    margin: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .inv-i-card {
+        flex-direction: column;
+
+        width: 89%;
+        gap: 48px;
+        padding: 40px 28px;
+    }
+
+    .ii-row {
+        padding: 0;
+        width: 100%;
+    }
 }
