@@ -6,3 +6,24 @@
     min-height: 400px;
     padding: 40px 20px;
 }
+
+.process-i {
+    min-height: 600px;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pi-content {
+    max-width: 1100px;
+}
+
+.pi-top {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap:10px;
+}

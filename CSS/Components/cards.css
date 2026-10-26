@@ -368,6 +368,7 @@
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+
 .inv-i-card {
     display: flex;
     justify-content: space-between;
@@ -413,4 +414,32 @@
         padding: 0;
         width: 100%;
     }
+}
+
+.pi-card {
+    min-height: 300px;
+    
+}
+
+.pic-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 10px;
+}
+
+.picr-top {
+    border-top: 2px solid rgba(0,0,0, 0.8);
+    border-bottom: 1px solid rgba(0,0,0, 0.8);
+}
+
+.picr-middle {
+    border-top: 1px solid rgba(0,0,0, 0.8);
+    border-bottom: 1px solid rgba(0,0,0, 0.8);
+}
+
+.picr-bottom {
+    border-top: 1px solid rgba(0,0,0, 0.8);
+    border-bottom: 2px solid rgba(0,0,0, 0.8);
 }
